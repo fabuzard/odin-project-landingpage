@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+.hero{
+    background-color: #1F2937;
+   
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1em 15em;
+    margin-bottom: 5em;
+
+
+    
+}
+#header-logo{
+    color: #F9FAF8;
+    cursor:pointer;
+    font-size: 24px;
+}
+#header-links{
+    color: #E5E7EB;
+    font-size: 18px;
+    display:flex;
+    cursor: pointer;
+
+}
+#header-links>p{
+    margin-left: 2em;
+}
+
+.hero-main{
+    display: flex;
+    justify-content: space-between;
+    flex:1 1 auto  ;
+    padding:5em 15em;
+ 
+
+}
+div
+#primary-text{
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+#secondary-text{
+color: #E5E7EB;
+font-size: 18px;
+max-width: 550px;
+margin-bottom: 25px;
+}
+#signup{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 5px 15px;
+    border-color: transparent;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#image{
+    background-color: wheat;
+    padding: 5em 10em;
+}
+
+.information-board{
+    margin: 5em 0;
+}
+
+#information-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+
+}
+#info-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+    margin: 0 auto; /* Center the container */
+    text-align: justify; /* Justify the text inside the container */
+    text-align-last: center; /* Center the last line of text */
+
+    margin-top: 50px;
+    
+}
+#each-item{
+    margin:0 20px;
+}
+
+#square{
+    background-color: transparent;
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: #3882f6;
+    width: 7em;
+    height: 7em;
+ margin: auto;
+ margin-bottom: 10px;
+    
+
+}
+#square-text{
+    max-width: 180px;
+    font-size: 18px;
+    color: #1F2937;
+    
+}
+
+.quote-container{
+    background-color:#E5E7EB ;
+    padding: 5em 25em;
+   
+
+}
+
+#quote-text{
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+#quote-preecher{
+    color: #1F2937;
+    font-weight: 600;
+    text-align: end;
+}
+
+
+#signup-box{
+    background-color: #3882f6;
+    margin: 10em 15em;
+    padding: 2em;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#signup-main{
+    font-size: 48px;
+    font-weight: 600;
+    color: #F9FAF8;
+
+}
+
+#signup-second{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#signup-btn{
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-size: 20px;
+    width: 10em;
+    border-color: #E5E7EB;
+    cursor: pointer;
+    
+
+}
+
+
